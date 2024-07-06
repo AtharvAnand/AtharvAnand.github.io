@@ -8,7 +8,7 @@ body {
 }
 
 .sidebar {
-    width: 60px;
+    width: 70px;
     background-color: #1f1f1f;
     height: 100vh;
     position: fixed;
@@ -18,8 +18,59 @@ body {
     align-items: center;
 }
 
+.sidebar li {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px; /* Adjust as needed */
+    justify-content: center;
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sidebar-link i {
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        text-align: center;
+    }
+}
+
 .sidebar:hover {
     width: 200px;
+}
+
+ul.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.nav li.nav-item {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 10px; /* Adjust spacing between items */
+}
+
+ul.nav li.nav-item a.nav-link {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+ul.nav li.nav-item a.nav-link .fas {
+    margin-right: 10px; /* Adjust icon spacing */
 }
 
 .profile {
@@ -99,7 +150,7 @@ li {
 }
 
 .content {
-    margin-left: 60px;
+    margin-left: 70px; /* Adjust for sidebar width */
     padding: 20px;
     transition: margin-left 0.3s;
     width: 100%;
@@ -131,11 +182,6 @@ li {
 
 .project:hover {
     transform: scale(1.05);
-}
-
-ul {
-    margin: 10px 0;
-    padding-left: 20px;
 }
 
 footer {
