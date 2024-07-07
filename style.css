@@ -78,6 +78,8 @@ ul.nav li.nav-item a.nav-link .fas {
     padding: 20px 0;
 }
 
+
+
 .profile-pic {
     border-radius: 50%;
     width: 40px;
@@ -95,7 +97,7 @@ h3 {
 }
 
 .sidebar:hover h3 {
-    display: block;
+    display: none;
 }
 
 nav {
