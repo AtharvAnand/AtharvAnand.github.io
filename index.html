@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        /* Add any additional CSS styles specific to this page */
+    </style>
 </head>
 <body>
-    <div class="sidebar" >
+    <div class="sidebar">
         <div class="profile">
             <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
             <h3>Atharv Anand</h3>
@@ -38,30 +44,36 @@
                 </a>
             </li>
         </ul>
-        
-
-
     </div>
 
     <div class="content">
-        <section id="about" class="section">
+        <section id="about" class="section page-transition">
             <div class="container">
-                <h2>About Me</h2>
-                <p>Hello! I am currently working at CommitTea as an IT associate. I have strong skills in Python, HTML, CSS, and JavaScript. Based in New Delhi, I am passionate about creating innovative web solutions and enhancing user experiences.</p>
-                <h3>CommitTea Website</h3>
-                <p>I developed and maintained the CommitTea website (commit-tea.org), a platform designed to help users find and participate in Model United Nations (MUN) events across the country. The website features an intuitive user interface, real-time event updates, and a robust backend system to ensure seamless performance.</p>
-                <h3>Skills</h3>
-                <ul>
-                    <li>Python: Proficient in developing backend solutions and scripting tasks.</li>
-                    <li>HTML & CSS: Skilled in creating responsive and visually appealing web pages.</li>
-                    <li>JavaScript: Experienced in building dynamic and interactive web applications.</li>
+                <h1 style="font-size: 3em; margin-bottom: 70px;">About Me</h1>
+                <hr>
+                <p>Hello! I am currently working at <strong>CommitTea</strong> as an IT associate. I have strong skills in <strong>Python, HTML, CSS, and JavaScript</strong>. Based in New Delhi, I am passionate about creating innovative web solutions and enhancing user experiences.</p>
+            
+                <h2 style="text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px;">Professional Experience</h2>
+                <h3 style="font-size: 1.3em;">CommitTea Website</h3>
+                <p><b>Role</b>: Developer and Maintainer</p>
+                <p><b>Description</b>: I developed and maintained the CommitTea website, a platform designed to help users find and participate in Model United Nations (MUN) events across the country. The website features:</p>
+                <ul style="margin-right: 600px; white-space: nowrap;">
+                    <li style="margin-right: 45px;">Intuitive User Interface: Easy navigation and user-friendly design.</li>
+                    <li style="margin-right: 45px;">Real-Time Event Updates: Live updates on upcoming MUN events.</li>
+                    <li>Robust Backend System: Ensures seamless performance and reliability.</li>
                 </ul>
-                <h3>Location</h3>
-                <p>Based in New Delhi, India</p>
+                <p><b>Link</b>: <a href="https://commit-tea.org">CommitTea</a></p>
+            
+                <h2 style="text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px;">Skills</h2>
+                <ul style="margin-right: 1000px; white-space: nowrap;">
+                    <li><b>Python</b>: Proficient in developing backend solutions and scripting tasks. Experienced in data analysis and automation.</li>
+                    <li><b>HTML & CSS</b>: Skilled in creating responsive and visually appealing web pages. Expertise in modern web design practices.</li>
+                    <li><b>JavaScript</b>: Experienced in building dynamic and interactive web applications. Proficient in frameworks like React and Angular.</li>
+                </ul>
             </div>
         </section>
 
-        <section id="projects" class="section">
+        <section id="projects" class="section page-transition">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project">
@@ -82,7 +94,7 @@
             </div>
         </section>
 
-        <section id="offer" class="section">
+        <section id="offer" class="section page-transition">
             <div class="container">
                 <h2>What Can I Offer</h2>
                 <p>I bring a blend of technical expertise and creativity. Here’s what I can offer:</p>
